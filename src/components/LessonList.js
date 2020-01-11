@@ -1,7 +1,7 @@
 import React from "react";
 export default class LessonList extends React.Component{
     render(){
-        // console.log("xixixixixixixi",this.props)
+        console.log("xixixixixixixi",this.props)
         return (
             <div>
                 {

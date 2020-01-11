@@ -21,6 +21,12 @@ export default function lessonReduce(state=initState,{type,payload}){
   state.swiperList = payload.swiperList;
 }else if(type === "CHANGE_LESSON_LIST"){
   state.lessonList = payload.lessonList;
+}else if(type === "CHANGE_LESSON_INFO"){
+  state.lessonInfo = payload.lessonInfo;
+}else if(type === "CHANGE_OUT_CONTENT"){
+  state.outContent = payload.outContent;
+}else if(type === "CHANGE_CLIENT_COURSE"){
+  state.clientCourse = payload.clientCourse;
 }
   return state
 }

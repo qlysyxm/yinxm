@@ -12,6 +12,7 @@ class HomePage extends React.Component {
         }
     }
     render() {
+        console.log("lala",this.props)
         return (
             !this.state.isHidden ? <div id="homepage">
                 {/* 头部 */}
@@ -37,6 +38,11 @@ class HomePage extends React.Component {
                         <img src="https://image.hongbeibang.com/FjmYGE5z6RvQL-_fdLKuSGYfmwO2?48X48&imageView2/1/w/48/h/48" alt="" />
                     </span>
                 </div>
+
+
+
+
+
                 {/* daoh导航 */}
                 <div className="guide">
                     {
@@ -48,6 +54,14 @@ class HomePage extends React.Component {
                         ))
                     }
                 </div>
+
+
+
+
+
+
+
+
                 {/* 列表展示 */}
                 <div className="showList">
                     <div className="listTitle">
