@@ -6,6 +6,9 @@ import Search from "./views/Search";
 import Baike from './views/baike'
 import University from './views/lesson/University'
 import Lesson from './views/lesson/Lesson'
+import Login from './views/Login'
+import Intercalate from './views/intercalate/intercalate'
+
 function App() {
   return (
     /* 
@@ -27,10 +30,12 @@ function App() {
         */
     <div>
       <Switch>
-        <Route path={"/lesson"} component={Lesson}></Route>
+       <Route path={"/login"} component={Login}></Route>
+       <Route path={"/lesson"} component={Lesson}></Route>
        <Route path={"/university"} component={University}></Route>
        <Route path={"/baike"} component={Baike}></Route>
        <Route path={"/search"} component={Search}></Route>
+       <Route path ={"/intercalate"} component={Intercalate}></Route>
        <Route path={"/"} component={Home}></Route>
       </Switch>  
     </div>

@@ -3,7 +3,7 @@ import React from "react"
 import {Route,NavLink} from 'react-router-dom'
 import HomePage from "../views/HomePage"
 import {withRouter} from 'react-router-dom'
-
+import My from '../views/my/My.js'
 class Tabbar extends React.Component{
   constructor(){
     super();
@@ -15,11 +15,12 @@ class Tabbar extends React.Component{
   render(){
     return(
       <div id="tabbar">
+        <Route path={"/my"} component = {My}></Route>
         <Route path={"/"} component={HomePage} exact={true}></Route>
         <nav>
         <NavLink className={"App-link"} onClick={()=>this.props.changeTabNum(0)} activeClassName={"App-active"} to={"/"} exact>
                         {
-                            this.props.tabNum === 0 ? <img src="https://image.hongbeibang.com/FsxN7RUFRJ9Zdris5Z22haR2xIhj?50X50&imageView2/1/w/50/h/50" alt="" /> : <img src="https://image.hongbeibang.com/FhngZoiK_s7Zw4K3DxLogRfqoO06?50X50&imageView2/1/w/50/h/50" alt="" />
+                            this.props.tabNum === 0 ? <img src="https://image.hongbeibang.com/54FsxN7RUFRJ9Zdris5Z22haR2xIhj?50X50&imageView2/1/w/50/h/50" alt="" /> : <img src="https://image.hongbeibang.com/FhngZoiK_s7Zw4K3DxLogRfqoO06?50X50&imageView2/1/w/50/h/50" alt="" />
                         }
                         <span>学烘焙</span>
                     </NavLink>
@@ -35,7 +36,7 @@ class Tabbar extends React.Component{
                         }
                         <span>问答</span>
                     </NavLink>
-                    <NavLink className={"App-link"} onClick={()=>this.props.changeTabNum(3)} activeClassName={"App-active"} to={"/my"}>
+                    <NavLink className={"App-link"} onClick={()=>this.props.changeTabNum(3)} activeClassName={"App-active"} to={"/login"}>
                         {
                             this.props.tabNum === 3 ? <img src="https://image.hongbeibang.com/FpNSY800vY0I5ytvWaqDbdJqT0HR?50X50&imageView2/1/w/50/h/50" alt="" /> : <img src="https://image.hongbeibang.com/FrYeKj0MohOJQuNzUgCugg90cHCS?50X50&imageView2/1/w/50/h/50" alt="" />
                         }
