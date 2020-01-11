@@ -1,6 +1,7 @@
 import React from 'react'
 import "../../assets/style/question/questionand.scss"
 import {connect} from "react-redux"
+import EssenceList from '../../components/question/EssenceList'
 import QuestionList from "../../components/question/QuestionList"
 class QuestionAnd extends React.Component{
   constructor(){
@@ -41,7 +42,7 @@ class QuestionAnd extends React.Component{
                     <div className="nav-box" ref="nav">
                         <div className={this.state.index===0?"nav-item active":"nav-item"} onClick={()=>{
                             this.setState({index:0});
-                            // this.props.getEssenceList.call(this);
+                            this.props.getEssenceList.call(this);
                         }}>
                             <span>精华问答</span>
                             <div className="line-box"></div>
@@ -55,7 +56,7 @@ class QuestionAnd extends React.Component{
                         </div>
                         <div className={this.state.index===2?"nav-item active":"nav-item"}  onClick={()=>{
                             this.setState({index:2});
-                            // this.props.getHotQuestionList.call(this);
+                            this.props.getHotQuestionList.call(this);
                         }}>
                             <span>最热问答</span>
                             <div className="line-box"></div>
@@ -63,10 +64,11 @@ class QuestionAnd extends React.Component{
                     </div>
                 </div>
          {/** 内容列表*/}
-        <div className="content">
-                {
-                   this.state.index===1?<QuestionList questionList={this.props.newQuestionList}></QuestionList>:""
-                }
+        <div className="content" ref={body=>this.scrollDom = body} >
+        {
+                        // this.state.index!==0 ? this.state.index !==1 ? "最热" : "最新" : "回答"
+                        this.state.index!==0 ? this.state.index !==1 ? <QuestionList questionList={this.props.hotQuestionList}></QuestionList> : <QuestionList questionList={this.props.newQuestionList}></QuestionList> : <EssenceList essenceList={this.props.essenceList}></EssenceList>
+                    }
 
         </div>
       </div>
@@ -76,13 +78,16 @@ class QuestionAnd extends React.Component{
 
 function num (state){
     return{
-       newQuestionList :state.question.newQuestionList
+       newQuestionList :state.question.newQuestionList,
+       hotQuestionList:state.question.hotQuestionList,
+        essenceList:state.question.essenceList
     }
 }
 
 
 function map(dispatch){
     return{
+        //最新
         async getNewQuestionList(){
             const data = await this.$axios.get("/question/getNew?_t=1575020357827&csrfToken=&pageIndex=0&pageSize=10");
             dispatch({
@@ -91,7 +96,27 @@ function map(dispatch){
                     newQuestionList:data.data.content.data
                 }
             })
-        }
+        },
+        //最热
+        async getHotQuestionList(){
+            const data = await this.$axios.get("/question/getHot?_t=1575025859417&csrfToken=&pageIndex=0&pageSize=10");
+            dispatch({
+                type:"CHANGE_HOT_LIST",
+                payload:{
+                    hotQuestionList:data.data.content.data
+                }
+            })
+        },
+        //精华
+        async getEssenceList(){
+            const data = await this.$axios.get("/question/getEssence?_t=1575027238034&csrfToken=&pageIndex=0&pageSize=10");
+            dispatch({
+                type:"CHANGE_ESSENCE_LIST",
+                payload:{
+                    essenceList:data.data.content.data
+                }
+            })
+        }   
     }
 }
 export default connect(num,map)(QuestionAnd);

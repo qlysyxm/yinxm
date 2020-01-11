@@ -11,6 +11,8 @@ import RecipeList from './views/recipe/RecipeList'
 import Recipe from './views/recipe/Recipe'
 import Activity from './views/circle/Activity'
 import Dish from "./views/circle/Dish"
+import Question from './views/question/Question'
+import Answer from './views/question/Answer'
 function App() {
   return (
     /* 
@@ -32,6 +34,8 @@ function App() {
         */
     <div>
       <Switch>
+        <Route path={"/answer/:contentId"} component={Answer}></Route>
+        <Route path={"/question/:contentId/:clientId"} component={Question}></Route>
       <Route path={"/dish/:id"} component={Dish}></Route>
         <Route path={"/activity/:id"} component={Activity}></Route>
         <Route path={"/recipt/:contentId/:quantity/:clientId"} component={Recipe}></Route>
