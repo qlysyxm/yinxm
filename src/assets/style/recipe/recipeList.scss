@@ -1,0 +1,307 @@
+#wrap{
+  //头部
+  .header{
+    height: 44px;
+    z-index: 6;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 18px;
+    margin: 0 auto;
+    max-width: 600px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    .search1{
+        font-size: 16px;
+        margin-top: 5px;
+        cursor: pointer;
+        .s-3613cfc6{
+            font-size: 0;
+            height: 44px;
+            display: inline-block;
+            cursor: pointer;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            .s-6a5cf0dc{
+                width: 19px;
+                height: 19px;
+                margin: 12.5px 0px 12.5px 5px;
+            }
+        }
+        .s7d4f25eb{
+            margin: 7px 0;
+            position: relative;
+            z-index: 1;
+            font-size: 14px;
+            line-height: 30px;
+            color: #E98B71;
+            float: left;
+        }
+    }
+    .search{
+        text-align: left;
+        height: 35px;
+        margin: 4.5px 0px;
+        .searchBtn{
+            height: 100%;
+            margin: 0 auto;
+            border-radius: 4px;
+            zoom: 1;
+            background-color: #F5F7F9;
+            box-sizing: border-box;
+            padding: 0 10px;
+            cursor: pointer;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 18px;
+                height: 18px;
+                margin-right: 10px;
+            }
+            .intro{
+                width: 198px;
+                color: #999999;
+                // font-size: 14px;
+                // vertical-align: middle;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                display: block;
+                // input {
+                    // width: 170.5px;
+                    // height: 30px;
+                    // // font-size: 10px;
+                    // background-color: #F5F7F9;
+                    // color: #999;
+
+
+                    .s6c123eab {
+                        background-color: #F5F7F9;
+                        padding: 5px 0;
+                        width: 100%;
+                        box-sizing: border-box;
+                        line-height: 25px;
+                        color: #4A4945;
+                        font-family:"微软雅黑";
+                        font-size: 14px;
+                        vertical-align: middle;
+                        border: none;
+                        outline: none;
+                    }
+                // }
+            }
+        }
+    }
+   }
+   //综合排序
+   .s-41d1d672{
+    max-width: 600px;
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    zoom: 1;
+    text-align: center;
+    .kong {
+        height: 44px;
+        width: 100%;
+    }
+    .s-45b3ab02 {
+        margin: 8px 0;
+        position: relative;
+        text-align: center;
+        cursor: pointer;
+        display: inline-block;
+        box-sizing: border-box;
+        width: 33.33%;
+        line-height: 28px;
+        height: 30px;
+        font-size: 14px;
+        color: #999999;
+    }
+    .active{
+        color: #4A4945;
+        font-size: 15px;
+        font-weight: bold;
+        .s9b31ec9{
+            width: 61px;
+            height: 2px;
+            margin: 0 37.5px;
+            border-radius: 20px;
+            background-color: #E98B71;
+        }
+    }
+   }
+   //视频学习
+   .s6acd1b0a{
+     padding: 0.08rem 0;
+     overflow: hidden;
+     zoom: 1;
+     position: relative;
+     .s-1d18d691{
+       display: block;
+       text-decoration: none;
+       background-color: #fff;
+       position: relative;
+       padding: 0 15px 2.5px 15px;
+       overflow: hidden;
+       zoom: 1;
+       .s17962228{
+        font-size: 0;
+        width: 125px !important;
+        height: 90px !important;
+        margin-right: 15px;
+        float: left;
+        .s28c200f{
+          width: 125px !important;
+          height: 90px !important;
+          overflow: hidden;
+          border-radius: 4px;
+        }
+        .s-3676c720{
+          position: absolute;
+          top: 0;
+          left: 18.75px;
+          width: 52px;
+          height: 15px;
+          font-size: 11px;
+          background-color: #E98B71;
+          color: #FFFFFF;
+          text-align: center;
+          line-height: 15px;
+         }
+       }
+       .sd0f5c6a{
+        font-size: 18px;
+        font-weight: bold;
+        color: #4A4945;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -otext-overflow: ellipsis;
+        -webkit-text-overflow: ellipsis;
+        -moz-text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+       } 
+       .s-6f40b723{
+        margin: 10px 0 5px 0;
+        height: 16px;
+        font-size: 12px;
+        color: #999999;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -otext-overflow: ellipsis;
+        -webkit-text-overflow: ellipsis;
+        -moz-text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .s-2b6eb7d8{
+        font-size: 11px;
+        color: #4A4945;
+        margin-top: 8px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -otext-overflow: ellipsis;
+        -webkit-text-overflow: ellipsis;
+        -moz-text-overflow: ellipsis;
+        white-space: nowrap;
+        height: 16px;
+       }
+     }
+     .s601044d3{
+      height: 19px;
+      width: 55px;
+      position: absolute;
+      bottom: 7.5px;
+      right: 12.5px;
+      background-color: #FAFBFC;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      z-index: 1;
+      display: flex;
+      .s-4014f5ce{
+          height: 16px;
+          font-size: 11px;
+          color: #999;
+       }
+      }
+      .s4d160f27{
+        display: block;
+        text-decoration: none;
+    }
+   }
+   // 热搜商品列表
+   .s6d8b134b{
+    margin: 0;
+    padding: 3px 0;
+    overflow: hidden;
+    zoom: 1;
+    .s-1d18d691{
+        display: block;
+        background-color: #FFFFFF;
+        position: relative;
+        padding: 0 15px 2.5px 15px;
+        overflow: hidden;
+        zoom: 1;
+        text-decoration: none;
+        .s2f82224c{
+            font-size: 0;
+            width: 130px !important;
+            height: 100px !important;
+            margin-right: 15px;
+            float: left;
+            .s28c200f{
+                width: 125px !important;
+                height: 90px !important;
+                overflow: hidden;
+                border-radius: 4px;
+            }
+        }
+        .s30776b32{
+            letter-spacing: 0.5px;
+            line-height: 24.375px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #4A4945;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            height: 26.63px !important;
+        }
+        .s-7788b730{
+            margin: 3px 0 5px 0;
+            font-size: 10px;
+            color: #4A4945;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .s-b5fb7ce{
+            margin-top: 3px;
+            font-size: 11px;
+            color: #999999;
+            overflow: hidden;
+            // text-overflow: ellipsis;
+            white-space: nowrap;    
+            width: 200px !important;
+            height: 16px !important;        
+        }
+        .s627b48c1{
+            font-size: 11px;
+            color: #4A4945;
+            margin-top: 3.75px;
+            overflow: hidden;
+            // text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+    }
+ }
+}

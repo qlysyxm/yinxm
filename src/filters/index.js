@@ -1,6 +1,5 @@
 class Tools {
     // Answer.js    
-    //根据已有的meta标签设置缩放比例
     static commontArr(data) {
         const arr = [];
         if(data.count < 1){
@@ -36,6 +35,7 @@ class Tools {
             });            
             if(comments.data[i].comments.count > 0){
                 const data = this.getcommonts(comments.data[i].comments);
+              
                 for(let j=0;j<data.length;++j){
                     arrlist.push(data[j]);
                 }

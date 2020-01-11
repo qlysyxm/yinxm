@@ -6,6 +6,11 @@ import Search from "./views/Search";
 import Baike from './views/baike'
 import University from './views/lesson/University'
 import Lesson from './views/lesson/Lesson'
+import Classify from './views/recipe/Classify'
+import RecipeList from './views/recipe/RecipeList'
+import Recipe from './views/recipe/Recipe'
+import Activity from './views/circle/Activity'
+import Dish from "./views/circle/Dish"
 function App() {
   return (
     /* 
@@ -27,6 +32,11 @@ function App() {
         */
     <div>
       <Switch>
+      <Route path={"/dish/:id"} component={Dish}></Route>
+        <Route path={"/activity/:id"} component={Activity}></Route>
+        <Route path={"/recipt/:contentId/:quantity/:clientId"} component={Recipe}></Route>
+        <Route path={"/recipeList/:keyword"} component={RecipeList}></Route>
+        <Route path={"/classify"} component={Classify}></Route>
         <Route path={"/lesson"} component={Lesson}></Route>
        <Route path={"/university"} component={University}></Route>
        <Route path={"/baike"} component={Baike}></Route>
