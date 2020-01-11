@@ -7,8 +7,16 @@ import Baike from './views/baike'
 import University from './views/lesson/University'
 import Lesson from './views/lesson/Lesson'
 import Login from './views/Login'
+<<<<<<< HEAD
 import Intercalate from './views/intercalate/intercalate'
 
+=======
+import Classify from './views/recipe/Classify'
+import RecipeList from './views/recipe/RecipeList'
+import Recipe from './views/recipe/Recipe'
+import Activity from './views/circle/Activity'
+import Dish from "./views/circle/Dish"
+>>>>>>> fe498fd1c0ff8f347e6f5c19b7b378f646659271
 function App() {
   return (
     /* 
@@ -32,6 +40,15 @@ function App() {
       <Switch>
        <Route path={"/login"} component={Login}></Route>
        <Route path={"/lesson"} component={Lesson}></Route>
+<<<<<<< HEAD
+=======
+      <Route path={"/dish/:id"} component={Dish}></Route>
+        <Route path={"/activity/:id"} component={Activity}></Route>
+        <Route path={"/recipt/:contentId/:quantity/:clientId"} component={Recipe}></Route>
+        <Route path={"/recipeList/:keyword"} component={RecipeList}></Route>
+        <Route path={"/classify"} component={Classify}></Route>
+        <Route path={"/lesson"} component={Lesson}></Route>
+>>>>>>> fe498fd1c0ff8f347e6f5c19b7b378f646659271
        <Route path={"/university"} component={University}></Route>
        <Route path={"/baike"} component={Baike}></Route>
        <Route path={"/search"} component={Search}></Route>

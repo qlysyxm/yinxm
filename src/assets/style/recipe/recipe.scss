@@ -1,0 +1,1023 @@
+#wrap {
+  .s30153804 {
+      background: #FFFFFF;
+      height: 44px;
+      z-index: 6;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 0 18px;
+      margin: 0 auto;
+      max-width: 600px;
+      box-sizing: border-box;
+      width: 100%;
+      .s-3613cfc6 {
+          font-size: 0;
+          height: 44px;
+          float: left;
+          display: inline-block;
+          cursor: pointer;
+          text-align: center;
+          position: relative;
+          z-index: 1;
+          .s-6a5cf0dc {
+              width: 27px;
+              height: 27px;
+              margin: 9.5px 0;
+          }
+      }
+      .s60a15aa {
+          margin: 7px 0;
+          position: relative;
+          z-index: 1;
+          height: 30px;
+          float: right !important;
+          .s-680604cd.yellowE9Square {
+              background-color: #E98B71;
+              color: #FFFFFF;
+              border: 1px solid;
+              border-color: #E98B71;
+              border-radius: 4px;
+          }
+          .s-680604cd {
+              position: relative;
+              border-radius: 20px;
+              box-sizing: border-box;
+              margin: 0;
+              text-align: center;
+              font-size: 12px;
+              line-height: 28px;
+              width: 50px;
+              height: 30px;
+              cursor: pointer;
+          }
+      }
+      .s7e1f0f36{
+          height: 44px;
+          overflow: hidden;
+          zoom: 1;
+      }
+
+  }
+
+  .s-45edce8e {
+      position: absolute;
+      left: 0;
+      right: 0;
+      max-width: 600px;
+      -webkit-overflow-scrolling: touch;
+      margin: 0 auto;
+      padding: 0;
+      overflow-y: scroll;
+      .s1d5d1514 {
+          background-color: #FFFFFF;
+          margin: 0 auto;
+          padding: 0 0 10px 0;
+          .s5a462018 {
+              font-size: 0;
+              margin: 0 auto;
+              padding: 0;
+              overflow: hidden;
+              position: relative;
+              zoom: 1;
+              .s-34f4f4a1 {
+                  width: 100%;
+                  overflow: hidden;
+              }
+              .s-6bbae4c3 {
+                  padding: 0 15px;
+                  margin: 0;
+                  overflow: hidden;
+                  position: relative;
+                  zoom: 1;
+                  .s2a122cbf {
+                      color: #4A4945;
+                      line-height: 35px;
+                      font-size: 25px;
+                      font-weight: bold;
+                      word-wrap: break-word;
+                      position: relative;
+                      margin: 15px 0;
+                  }
+                  .s-1340df09 {
+                      overflow: hidden;
+                      zoom: 1;
+                      border-top: 1px solid #F1F1F1;
+                      margin: 15px auto;
+                      padding-top: 19px;
+                      .s-680604cd.yellowE9Border {
+                          background-color: #FFFFFF;
+                          color: #E98B71;
+                          border: 1px solid;
+                          border-color: #E98B71;
+                          border-radius: 4px;
+                      }
+                      .s-680604cd {
+                          position: relative;
+                          border-radius: 20px;
+                          box-sizing: border-box;
+                          margin: 0;
+                          text-align: center;
+                          font-size: 12px;
+                          line-height: 28px;
+                          width: 50px;
+                          height: 30px;
+                          cursor: pointer;
+                      }
+                      .s-188bde89 {
+                          float: left;
+                          width: 35px !important;
+                          height: 35px !important;
+                          padding: 0;
+                          margin-right: 10px;
+                          .s-1c89ddc8 {
+                              width: 100%;
+                              height: 100%;
+                              font-size: 0;
+                              position: relative;
+                              overflow: hidden;
+                              cursor: pointer;
+                              .s33fa2c34 {
+                                  width: 100%;
+                                  height: 100%;
+                                  border-radius: 50%;
+                                  overflow: hidden;
+                                  box-sizing: border-box;
+                                  border: 1px solid;
+                                  border-color: #E7E2E5;
+                              }
+                          }
+                      }
+                      .s10151d80 {
+                          overflow: hidden;
+                          height: 35px !important;
+                          display: flex;
+                          align-items: center;
+                          .s76884d5d {
+                              font-size: 13px;
+                              height: 40px;
+                              line-height: 40px;
+                              color: #4A4945;
+                              overflow: hidden;
+                              text-overflow: ellipsis;
+                              -otext-overflow: ellipsis;
+                              -webkit-text-overflow: ellipsis;
+                              -moz-text-overflow: ellipsis;
+                              white-space: nowrap;
+                          }
+                      }
+                      .s18152520 {
+                          word-wrap: break-word;
+                          letter-spacing: 1px;
+                          margin-top: 15px;
+                          margin-bottom: 30px;
+                          text-align: justify;
+                          .s-6f0fec17 {
+                              margin: 0 auto;
+                              padding: 0;
+                              overflow: hidden;
+                              zoom: 1;
+                              .s737928cd {
+                                  font-size: 14px;
+                                  line-height: 22px;
+                                  padding: 0;
+                                  margin: 0;
+                                  color: #4A4945;
+                                  word-break: break-all;
+                                  word-wrap: break-word;
+                              }
+                          }
+                      }
+                  }
+              }
+          }
+          
+          // 食材用料
+          .sa6c118b {
+              position: relative;
+              margin: 0 15px;
+              padding: 0;
+              // 食材用料文字
+              .s-4f17d017 {
+                  background-color: #fff;
+                  padding-top: 15px;
+                  padding-horizontal: 15px;
+                  font-size: 16px;
+                  line-height: 22.5px;
+                  color: #313131;
+                  font-weight: bold;
+              }
+              // 用料加减
+              .s-7194e79c {
+                  margin: 15px auto;
+                  padding: 0;
+                  display: flex;
+                  align-items: center;
+                  .s1dcc469e {
+                      padding: 0;
+                      display: inline-flex;
+                      border: 1px solid;
+                      border-color: #ffffff;
+                      box-sizing: border-box;
+                      border-radius: 4px;
+                      font-size: 0;
+                      overflow: hidden;
+                      vertical-align: middle;
+                      align-items: center;
+                      .s3b7a4466 {
+                          font-size: 0;
+                          height: 35px;
+                          width: 35px;
+                          border-radius: 4px;
+                          background-color: #F5F7F9;
+                          padding: 5px;
+                          display: inline-block;
+                          vertical-align: middle;
+                          box-sizing: border-box;
+                          position: relative;
+                          .s413111d {
+                              width: 15px;
+                              height: 3px;
+                              left: 10px;
+                              top: 16px;
+                          }
+                          .s52a117ba {
+                              background-color: #999;
+                              border-radius: 1.5px;
+                              position: absolute;
+                          }
+                          .s400111d {
+                              height: 15px;
+                              width: 3px;
+                              top: 10px;
+                              left: 16px;
+                          }
+                      }
+                      .s37fd3f20 {
+                          width: 50px;
+                          height: 35px;
+                          border-radius: 4px;
+                          background-color: #F5F7F9;
+                          margin-left: 3px;
+                          margin-right: 3px;
+                          justify-content: center;
+                          align-items: center;
+                          display: inline-flex;
+                          .s-38f16fff {
+                              line-height: 28px;
+                              border: 0;
+                              border-radius: 0;
+                              text-align: center;
+                              display: inline-block;
+                              box-sizing: border-box;
+                              outline: none;
+                              vertical-align: middle;
+                              margin-left: 5px;
+                              margin-right: 5px;
+                              width: 35px;
+                              padding: 0 7.5px;
+                              height: 24px;
+                              font-size: 17px;
+                              font-weight: bold;
+                              color: #313131;
+                              background-color: #F5F7F9;
+                              border-style: none;
+                              border-bottom-style: solid;
+                              border-bottom-width: thin;
+                              border-bottom-color: #4a4640;
+                          }
+                      }
+                  }
+                  .s-3f18e190 {
+                      line-height: 15px;
+                      font-size: 13px;
+                      color: #999;
+                      position: relative;
+                      margin-left: 10px;
+                  }
+              }
+              // 配料表
+              .s-7ec5e8f0 {
+                  margin: 0 auto;
+                  padding: 10px 0 15px 0;
+                  overflow: hidden;
+                  zoom: 1;
+                  .s17ff34a3:first-child {
+                      border-top: 1px solid #F1F1F1;
+                  }
+                  .s17ff34a3 {
+                      flex-direction: row;
+                      padding: 10px 0;
+                      overflow: hidden;
+                      border-bottom: 1px solid #F1F1F1;
+                      display: flex;
+                      .s376a2933 {
+                          flex: 1;
+                          justify-content: center;
+                          margin-right: 15px;
+                          font-size: 17px;
+                          line-height: 27px;
+                          color: #313131;
+                          font-weight: 300;
+                      }
+                  }
+              }
+          }
+      }
+      // 步骤最外层盒子
+      .oy{
+          .s7bcc137e {
+              margin: 0 15px;
+              padding: 0;
+              overflow: hidden;
+              zoom: 1;
+              .s1d673b34 {
+                  font-size: 0;
+                  padding: 15px 0;
+                  border-bottom: 1px solid;
+                  border-bottom-color: #F1F1F1;
+                  box-sizing: border-box;
+                  overflow: hidden;
+                  zoom: 1;
+                  .s-7f22b8fc {
+                      position: relative;
+                      margin: 0 auto;
+                      padding: 0;
+                      font-size: 16px;
+                      color: #313131;
+                      font-weight: bold;
+                      line-height: 25px;
+                      overflow: hidden;
+                      zoom: 1;
+                  }
+                  .s5eab1b0b {
+                      width: 100%;
+                      margin: 15px auto 0 auto;
+                      border-radius: 4px;
+                      overflow: hidden;
+                  }
+              }
+          }
+      }
+
+      // 作业
+      .s-38e7f556 {
+          border-top: 10px solid #F5F7F9;
+          .s-6279dd34 {
+              float: right;
+              font-size: 15px;
+              line-height: 17.25px;
+              color: #999;
+              cursor: pointer;
+              padding-top: 3px;
+          }
+          .s6065545 {
+              font-size: 16px;
+              font-weight: bold;
+              line-height: 22.33px;
+              margin: 0 auto;
+              color: #313131;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              -otext-overflow: ellipsis;
+              -webkit-text-overflow: ellipsis;
+              -moz-text-overflow: ellipsis;
+              white-space: nowrap;
+          }
+      }
+      // 作业最外层的盒子
+      .s-3774ca52 {
+          position: relative;
+          margin: 0 auto;
+          padding: 0;
+          z-index: 1;
+          overflow-y: hidden;
+          overflow-x: auto;
+          -webkit-overflow-scrolling: touch;
+          padding-top: 5px;
+          .s-5caadf70 {
+              // display: flex;
+              overflow: hidden;
+              padding: 0;
+              margin: 0;
+              position: relative;
+              z-index: 1;
+              margin-left: 5px;
+              .s561156b2 {
+                  margin-bottom: 10px;
+                  width: 160px;
+                  height: 283px;
+                  position: relative;
+                  display: inline-block;
+                  vertical-align: middle;
+                  margin-left: 10px;
+                  box-sizing: border-box;
+                  border: 1px solid;
+                  border-color: #F5F7F9;
+                  background-color: #FFFFFF;
+                  overflow: hidden;
+                  .s29de268f {
+                      display: block;
+                      font-size: 0;
+                      width: 160px !important;
+                      height: 160px !important;
+                      overflow: hidden;
+                      zoom: 1;
+                      .s-4545e6b4 {
+                          width: 160px !important;
+                          height: 160px !important;
+                          overflow: hidden;
+                      }
+                  }
+                  .s4d160f27 {
+                      display: block;
+                      text-decoration: none;
+                  }
+                  .s-17a8dea9 {
+                      width: 20px !important;
+                      height: 20px !important;
+                      position: absolute;
+                      left: 8px;
+                      top: 168px;
+                      .s-1c89ddc8 {
+                          width: 100%;
+                          height: 100%;
+                          font-size: 0;
+                          position: relative;
+                          overflow: hidden;
+                          cursor: pointer;
+                          .s33fa2c34 {
+                              width: 100%;
+                              height: 100%;
+                              border-radius: 50%;
+                              overflow: hidden;
+                              box-sizing: border-box;
+                              border: 1px solid;
+                              border-color: #E7E2E5;
+                          }
+                      }
+                  }
+                  .s-3057a343 {
+                      position: absolute;
+                      left: 33px;
+                      right: 8px;
+                      top: 170.5px;
+                      font-size: 11px;
+                      color: #B5B5B5;
+                      line-height: 15px;
+                      overflow: hidden;
+                      text-overflow: ellipsis;
+                      -otext-overflow: ellipsis;
+                      -webkit-text-overflow: ellipsis;
+                      -moz-text-overflow: ellipsis;
+                      white-space: nowrap;
+                  }
+                  .s27216fa8 {
+                      position: absolute;
+                      left: 8px;
+                      right: 8px;
+                      top: 193px;
+                      font-size: 13px;
+                      color: #313131;
+                      line-height: 18.5px;
+                      overflow: hidden;
+                      text-overflow: ellipsis;
+                      -otext-overflow: ellipsis;
+                      -webkit-text-overflow: ellipsis;
+                      -moz-text-overflow: ellipsis;
+                      display: -webkit-box;
+                      -webkit-line-clamp: 2;
+                      -webkit-box-orient: vertical;
+                  }
+                  .s-6271e795 {
+                      position: absolute;
+                      left: 65px;
+                      bottom: 15px;
+                      text-align: center;
+                      .s-73edd1a8 {
+                          width: 19px !important;
+                          height: 19px !important;
+                          margin-right: 5px;
+                          font-size: 0;
+                          display: inline-block;
+                          vertical-align: middle;
+                          .s-66f7e70e {
+                              width: 19px !important;
+                              height: 19px !important;
+                              overflow: hidden;
+                          }
+                      }
+                      .s-2b3bdb33 {
+                          font-size: 14px;
+                          display: inline-block;
+                          vertical-align: middle;
+                          color: #999999;
+                      }
+                  }
+              }
+          }
+      }
+
+
+      .s-53e1f634 {
+          margin: 0 15px;
+          padding: 0;
+          .s-6610b09f.yellowE9Square {
+              background-color: #E98B71;
+              color: #FFFFFF;
+              border: 1px solid;
+              border-color: #E98B71;
+              border-radius: 4px;
+              .sa601161 {
+                  width: 24px !important;
+                  height: 24px !important;
+                  margin: 7px 10px 7px 0;
+                  .s-34f4f4a1 {
+                      width: 100%;
+                      overflow: hidden;
+                  }
+              }
+              .s65a71ad3 {
+                  display: inline-block;
+                  width: 12px;
+                  vertical-align: middle;
+                  font-size: 0;
+              }
+              .s-612ae0c6 {
+                  height: 14px !important;
+                  display: inline-block;
+                  margin-left: 2px;
+                  text-align: center;
+                  vertical-align: middle;
+              }
+          }
+          .s-7816f12d {
+              font-size: 16px !important;
+              width: 100%;
+              height: 40px !important;
+          }
+          .s-6610b09f {
+              position: relative;
+              margin: 0 auto;
+              border-radius: 4px;
+              height: 30px;
+              font-size: 12px;
+              text-align: center;
+              cursor: pointer;
+              box-sizing: border-box;
+          }
+      }
+
+      // 食谱推荐
+      .s-7fc3c9be {
+          padding: 0;
+          margin: 0 auto;
+          zoom: 1;
+          overflow-y: hidden;
+          overflow-x: auto;
+          -webkit-overflow-scrolling: touch;
+          background-color: #FFFFFF;
+          padding-top: 10px;
+          .s4fdc1a25 {
+              padding: 0;
+              margin: 0;
+              overflow: hidden;
+              height: 132px;
+              margin-left: 5px;
+              .s3e793d71 {
+                  margin-left: 10px;
+                  width: 320;
+                  background-color: #FFFFFF;
+                  position: relative;
+                  display: inline-block;
+                  vertical-align: top;
+                  overflow: hidden;
+                  zoom: 1;
+                  box-sizing: border-box;
+                  .s4e173a56 {
+                      width: 160px !important;
+                      height: 93px !important;
+                      margin: 3px 0 0 0;
+                      position: relative;
+                      overflow: hidden;
+                      font-size: 0;
+                      box-sizing: border-box;
+                      border-radius: 4px;
+                      .s2e72011 {
+                          width: 160px !important;
+                          height: 93px !important;
+                          overflow: hidden;
+                          border-radius: 4px;
+                      }
+                  }
+                  .s-7f7a659 {
+                      margin-top: 8px;
+                      font-size: 13px;
+                      line-height: 16px;
+                      color: #4A4945;
+                      font-weight: bold;
+                      overflow: hidden;
+                      text-overflow: ellipsis;
+                      -otext-overflow: ellipsis;
+                      -webkit-text-overflow: ellipsis;
+                      -moz-text-overflow: ellipsis;
+                      white-space: nowrap;
+                      width: 160px;
+                  }
+              }
+          }
+      }
+      // 作者食谱
+      .clientWrap{
+          .s-6279dd34 {
+              float: right;
+              font-size: 15px;
+              line-height: 17.25px;
+              color: #999;
+              cursor: pointer;
+              padding-top: 3px;
+          }
+          .s6065545 {
+              font-size: 16px;
+              font-weight: bold;
+              line-height: 22.33px;
+              margin: 0 auto;
+              color: #313131;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              -otext-overflow: ellipsis;
+              -webkit-text-overflow: ellipsis;
+              -moz-text-overflow: ellipsis;
+              white-space: nowrap;
+          }
+      }
+
+      .s1371169f {
+          margin-top: 10px;
+          background-color: #fff;
+          padding-bottom: 15px;
+          .sc90d0e {
+              display: flex;
+              font-weight: bold;
+              .s-ec4eba8 {
+                  font-size: 0;
+                  margin: 0 auto;
+                  padding: 15px 0 10px 0;
+                  flex: 1;
+                  .s-2913d021 {
+                      font-size: 16px;
+                      line-height: 22.5px;
+                      color: #313131;
+                      font-weight: bold;
+                      vertical-align: middle;
+                      display: inline-block;
+                      padding-left: 15px;
+                  }
+              }
+              .s3dcb0e27 {
+                  padding-top: 18px;
+                  padding-right: 15px;
+                  .s-7683e7fa {
+                      font-size: 15px;
+                      color: #999;
+                      line-height: 21px;
+                      font-weight: normal;
+                  }
+              }
+          }
+          // 推荐课程
+          .animationWrap{
+              .animation{
+                  .s382d54ba {
+                      padding: 0;
+                      margin: 0 auto;
+                      zoom: 1;
+                      overflow-x: auto;
+                      -webkit-overflow-scrolling: touch;
+                      overflow-y: hidden;
+                      white-space: nowrap;
+                      height: 290px !important;
+                      .s-48eca401:first-child {
+                          margin-left: 15px;
+                      }
+                      .s-48eca401 {
+                          position: relative;
+                          margin-right: 10px;
+                          width: 160px !important;
+                          height: 270px !important;
+                          display: inline-block;
+                          vertical-align: top;
+                          zoom: 1;
+                          box-sizing: border-box;
+                          overflow: hidden;
+                          .s-2bf8e690 {
+                              width: 160px !important;
+                              height: 225px !important;
+                              border-radius: 4px;
+                          }
+                          .s-6322c42d {
+                              position: absolute;
+                              left: 0;
+                              bottom: 53.5px;
+                              font-size: 11px;
+                              margin: 0 10px;
+                              padding: 2px 4px;
+                              border-radius: 4px;
+                              overflow: hidden;
+                              color: #4A4945;
+                              background-color: #fff;
+                          }
+                          .s7bbf52e4 {
+                              color: #4A4945;
+                              font-weight: bold;
+                              font-size: 15px;
+                              line-height: 20.25px;
+                              display: -webkit-box;
+                              -webkit-line-clamp: 2;
+                              -webkit-box-orient: vertical;
+                              overflow: hidden;
+                              word-break: break-all;
+                              text-overflow: ellipsis;
+                              white-space: normal;
+                          }
+                      }
+                  }
+              }
+          }
+      }
+
+      .sauWrap {
+          .s6065545 {
+              font-size: 16px;
+              font-weight: bold;
+              line-height: 22.33px;
+              margin: 0 auto;
+              color: #313131;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              -otext-overflow: ellipsis;
+              -webkit-text-overflow: ellipsis;
+              -moz-text-overflow: ellipsis;
+              white-space: nowrap;
+          }
+          .sf0e12ae {
+              height: 54px;
+              flex-direction: row;
+              display: flex;
+              .s-6c47e396 {
+                  flex: 1;
+                  justify-content: center;
+                  align-items: center;
+                  display: inline-flex;
+                  .s4f54181e {
+                      flex-direction: row;
+                      align-items: center;
+                      display: inline-flex;
+                      .s-a38eddb {
+                          height: 19px;
+                          width: 19px;
+                          display: inline-flex;
+                      }
+                      .s-7d62e8e1 {
+                          margin-left: 5px;
+                          color: #676767;
+                          font-size: 11px;
+                          line-height: 15px;
+                      }
+                  }
+              }
+          }
+      }
+      .sayWrap {
+          .s-6d7ce23f {
+              position: relative;
+              margin: 0 15px;
+              border-top: 1px solid;
+              border-top-color: #F5F7F9;
+          }
+          .s-5ec3c780 {
+              margin: 0;
+              padding: 0 15px;
+              box-sizing: border-box;
+              width: 100%;
+              background-color: #FFFFFF;
+              letter-spacing: 0.5px;
+              list-style-type: none;
+              overflow: hidden;
+              zoom: 1;
+              .s3ee42b05 {
+                  position: relative;
+                  padding-top: 7.5px;
+                  padding-bottom: 7.5px;
+                  overflow: hidden;
+                  zoom: 1;
+                  .s43561d82 {
+                      width: 35px !important;
+                      height: 35px !important;
+                      float: left;
+                      margin-right: 10px;
+                      .s-1c89ddc8 {
+                          width: 100%;
+                          height: 100%;
+                          font-size: 0;
+                          position: relative;
+                          overflow: hidden;
+                          cursor: pointer;
+                          .s33fa2c34 {
+                              width: 100%;
+                              height: 100%;
+                              border-radius: 50%;
+                              overflow: hidden;
+                              box-sizing: border-box;
+                              border: 1px solid;
+                              border-color: #E7E2E5;
+                          }
+                      }
+                  }
+                  .s5541079b {
+                      overflow: hidden;
+                      .s-fd7aff0 {
+                          font-size: 13px;
+                          color: #4A4945;
+                          line-height: 18.5px;
+                          overflow: hidden;
+                          text-overflow: ellipsis;
+                          -otext-overflow: ellipsis;
+                          -webkit-text-overflow: ellipsis;
+                          -moz-text-overflow: ellipsis;
+                          white-space: nowrap;
+                          margin-bottom: 5px;
+                      }
+                      .s-23b0ef91 {
+                          font-size: 11px;
+                          line-height: 15px;
+                          color: #999;
+                      }
+                  }
+                  .s44213e0f {
+                      text-align: justify;
+                      word-wrap: break-word;
+                      text-overflow: ellipsis;
+                      color: #4A4945;
+                      margin-top: 10px;
+                      margin-right: 15px;
+                      margin-left: 40.875px;
+                      font-size: 15px;
+                      line-height: 21px;
+                  }
+              }
+          }
+
+      }
+      // 没有评论
+      .none-crit{
+          height: 190px;
+          line-height: 190px;
+          text-align: center;
+          font-size: 14px;
+          color: #999999;
+          background-color: #FFFFFF;
+      }
+      // 评论
+      .crit{
+          margin: 0;
+          padding: 0 15px;
+          box-sizing: border-box;
+          width: 100%;
+          background-color: #FFFFFF;
+          letter-spacing: 0.5px;
+          list-style-type: none;
+          overflow: hidden;
+          zoom: 1;
+          .crit-list{
+              position: relative;
+              padding-top: 7.5px;
+              padding-bottom: 7.5px;
+              overflow: hidden;
+              zoom: 1;
+              .crit-img{
+                  width: 35px !important;
+                  height: 35px !important;
+                  float: left;
+                  margin-right: 10px;
+                  div{
+                      width: 100%;
+                      height: 100%;
+                      font-size: 0;
+                      position: relative;
+                      overflow: hidden;
+                      cursor: pointer;
+                      img{
+                          width: 33px;
+                          height: 33px;
+                          background: none;
+                          border-radius: 50%;
+                          overflow: hidden;
+                          box-sizing: border-box;
+                          border: 1px solid;
+                          border-color: #E7E2E5;
+                      }
+                  }
+              }
+              .crit-up{
+                  overflow:hidden;
+              }
+              .crit-up-name{
+                  font-size: 13px;
+                  color: #4A4945;
+                  line-height: 18.5px;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                  -otext-overflow: ellipsis;
+                  -webkit-text-overflow: ellipsis;
+                  -moz-text-overflow: ellipsis;
+                  white-space: nowrap;
+                  margin-bottom: 5px;
+              }
+              .time{
+                  font-size: 11px;
+                  line-height: 15px;
+                  color: #999;
+              }
+          }
+          .crit-text{
+              text-align: justify;
+              word-wrap: break-word;
+              text-overflow: ellipsis;
+              color: #4A4945;
+              margin-top: 10px;
+              margin-right: 15px;
+              margin-left: 40.875px;
+              font-size: 15px;
+              line-height: 21px;
+          }
+          .crit-content{
+              text-align: justify;
+              word-wrap: break-word;
+              text-overflow: ellipsis;
+              color: #4A4945;
+              margin-top: 10px;
+              margin-right: 15px;
+              font-size: 15px;
+              line-height: 21px;
+          }
+          .inner-text{
+              text-align: justify;
+              word-wrap: break-word;
+              text-overflow: ellipsis;
+              color: #4A4945;
+              margin-top: 10px;
+              margin-right: 15px;
+              font-size: 15px;
+              line-height: 21px;
+              .pic{
+                  display: none;
+                  height: 10px;
+                  margin-left: 10px;
+                  background-size: 20px 10px;
+                  background-repeat: no-repeat;
+                  background-position: left center;
+                  background-image: url(https://image.hongbeibang.com/FmwTO8xJBgVu5zPFNDQLImp1Y7Ek?imageMogr2/strip/thumbnail/50x50);
+              }
+              ul{
+                  box-sizing: border-box;
+                  background-color: #F5F7F9;
+                  letter-spacing: 0.5px;
+                  list-style-type: none;
+                  overflow: hidden;
+                  zoom: 1;
+                  margin-top: 10px;
+                  padding-top: 5px;
+                  padding-bottom: 10px;
+                  padding-left: 10px;
+                  padding-right: 10px;
+                  li{
+                      position: relative;
+                      padding-top: 5px;
+                      padding-bottom: 5px;
+                      padding-left: 5px;
+                      padding-right: 5px;
+                      cursor: pointer;
+                      div{
+                          text-align: left;
+                          word-wrap: break-word;
+                          text-overflow: ellipsis;
+                          font-size: 13px;
+                          line-height: 18.5px;
+                          span{
+                              text-align: left;
+                              word-wrap: break-word;
+                              text-overflow: ellipsis;
+                              font-size: 13px;
+                              line-height: 18.5px;
+                              letter-spacing: 0.5px;
+                          }
+                      }
+                  }
+              }
+          }
+      }
+  }
+}
+

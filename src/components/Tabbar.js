@@ -4,6 +4,10 @@ import {Route,NavLink} from 'react-router-dom'
 import HomePage from "../views/HomePage"
 import {withRouter} from 'react-router-dom'
 import My from '../views/my/My.js'
+<<<<<<< HEAD
+=======
+import Show from '../views/circle/Show'
+>>>>>>> fe498fd1c0ff8f347e6f5c19b7b378f646659271
 class Tabbar extends React.Component{
   constructor(){
     super();
@@ -17,6 +21,7 @@ class Tabbar extends React.Component{
       <div id="tabbar">
         <Route path={"/my"} component = {My}></Route>
         <Route path={"/"} component={HomePage} exact={true}></Route>
+        <Route path={"/show"} component={Show}></Route>
         <nav>
         <NavLink className={"App-link"} onClick={()=>this.props.changeTabNum(0)} activeClassName={"App-active"} to={"/"} exact>
                         {
